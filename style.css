@@ -1,0 +1,116 @@
+/*.col {
+    box-sizing: border-box;
+    
+}*/
+.navbar-brand {
+    background-color: teal;
+    
+}
+.navbar-brand h2 {
+    color: white;
+}
+
+/*.navbar {
+    background-color: teal !important;
+}*/
+.navbar-toggler {
+    background-color: teal;
+}
+/*html {
+    height: 100%;
+}
+body {
+   height: 80%;
+}*/
+body, #visual {
+    background-color: #dee2e6;
+}
+.nav-item {
+    background-color: white;
+}
+.nav-item:active {
+    background-color: #dee2e6;
+    
+  }
+  .nav-item:hover {
+    background-color: #dee2e6;
+    
+  }
+/*.dropdown-menu {
+    background-color: white;
+}*/
+.container {
+    min-height: 100%;
+    overflow: hidden;
+    margin-top: 50px;
+}
+#container-comp{
+    padding: 50px;
+}
+.col-md-6 {
+    padding-bottom: 25px;
+}
+.container, #inner_visual {
+    background-color: white;
+}
+footer {
+    background-color: gray;
+    
+    border-top: 5px solid teal;
+    text-align: center;
+    color: white;
+    
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+    
+}
+
+
+
+h3 {
+    padding: 0px;
+    margin: 0;
+    text-align: center;
+    color: teal;
+}
+h1 {
+    color: teal;
+}
+h2 {
+    color: teal;
+    text-align: left;
+}
+#visual-header {
+    padding-left: 10px;
+}
+img {
+    padding: 0px;
+    margin: 0 auto;
+    height: 80%;
+    width: 80%;
+    box-sizing: inherit;
+    
+}
+#landing-img {
+    height: 50%;
+    width: 50%;
+    
+
+}
+
+/*
+* {
+    border: 1px solid red !important;
+}*/
+/*To change color when navbar collapses*/
+@media only screen and (max-width: 992px) {
+    .navbar {
+      background-color: teal !important;
+    }
+    #visual-header {
+        padding-left: 2px;
+    }
+}
+
